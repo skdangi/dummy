@@ -4,7 +4,7 @@
 
   <groupId>com.myntra.dummy</groupId>
   <artifactId>dummy</artifactId>
-  <version>1.0</version>
+  <version>1.1-SNAPSHOT</version>
 
   <properties>
     <project.scm.id>skdangi-github</project.scm.id>
@@ -12,7 +12,7 @@
 
   <scm>
     <developerConnection>scm:git:https://github.com/skdangi/dummy/</developerConnection>
-    <tag>dummy-1.0</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <build>
