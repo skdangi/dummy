@@ -8,6 +8,10 @@
   <artifactId>dummy</artifactId>
   <version>1.0-SNAPSHOT</version>
 
+  <scm>
+    <developerConnection>scm:git:https://github.com/skdangi/dummy/</developerConnection>
+  </scm>
+
   <build>
   <plugins>
     <plugin>
@@ -17,5 +21,17 @@
     </plugin>
   </plugins>
   </build>
+
+  <distributionManagement>
+    <snapshotRepository>
+      <id>snapshots</id>
+      <url>http://garepos.myntra.com:8080/nexus/content/repositories/myntra-snapshots</url>
+    </snapshotRepository>
+    <repository>
+      <id>releases</id>
+      <name>Internal Releases</name>
+      <url>http://garepos.myntra.com:8080/nexus/content/repositories/myntra-releases</url>
+    </repository>
+  </distributionManagement>
 
 </project>
