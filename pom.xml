@@ -12,6 +12,7 @@
 
   <scm>
     <developerConnection>scm:git:https://github.com/skdangi/dummy/</developerConnection>
+    <tag>dummy-1.0</tag>
   </scm>
 
   <build>
